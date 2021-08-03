@@ -28,3 +28,12 @@ Get info about consumer groups:
 kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group my-first-app
 To Reset offsets of consumer:
 kafka-consumer-groups.sh --bootstrap-server localhost:9002 --group my-first-app --reset-offsets --to-earliest --execute --topic first_topic
+
+To create a maven project:
+https://gorkem1.gitbooks.io/visual-studio-code-for-java/content/chapter-1/Maven-Create.html
+
+To install IntelliJ:
+sudo snap install intellij-idea-community --classic
+
+To install Maven:
+sudo apt get install -y maven
